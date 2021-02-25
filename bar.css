@@ -15,6 +15,15 @@ li:hover .dropdowncontent{
 }
 .dropdowncontent {
   display: none;
+  float: none;
+  width: 140px;
+  height: 100px;
+  padding: 25px;
+  word-spacing: 10px;
+  border-style: solid;
+  border-color:rgb(247, 251, 134);
+  border-width: 5px;
+  margin-top: 25px;
 }
 div {
   background-color: rgb(248, 188, 91);
@@ -26,6 +35,12 @@ p {
   text-align: center;
   padding: 75px;
   background-color: rgb(247, 251, 134);
+}
+.dropdowncontent:hover {
+  background-color: rgb(248, 119, 114);
+}
+h1 {
+  font-family: Comic Sans MS;
 }
   @media screen and (max-width: 800px) {
     body {
